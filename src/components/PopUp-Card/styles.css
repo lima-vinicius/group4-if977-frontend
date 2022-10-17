@@ -1,0 +1,42 @@
+.popup-card {
+    margin: 0 auto;
+    width: 40%;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-title {
+    display: block;
+    margin: 30px 0;
+    font-size: 30px;
+    color: #3C7055;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.wrap-popup-input {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #A8A49F;
+    margin-bottom: 30px;
+}
+
+.input-popup {
+    font-size: 15px;
+    color: #292929;
+    line-height: 1.2;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    padding: 0 5px;
+  }

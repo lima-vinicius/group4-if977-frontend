@@ -1,0 +1,33 @@
+.dashboard-card {
+    display: flex;
+    background-color: #3C7055;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container-logo-card-warning {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.container-logo-card-warning img {
+    margin-top: 10px;
+    height: 250px;
+    width: 200px;
+}
+
+.container-information-warning {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 10px;
+}
+
+.container-information-warning h1 {
+    margin: 40px 0 20px 0;
+    color: #F5F5F5;
+}
+
+.container-information-warning p {
+    font-size: 1rem;
+    color: #F5F5F5;
+    margin: 10px 0 5px 0;
+}

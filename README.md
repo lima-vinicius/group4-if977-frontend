@@ -9,16 +9,16 @@ In this repository are the files and the frontend project.
 Olimpo is a knowledge management system, which aims to help Teaching and Students to improve the absorption of knowledge.
 
 ## Links
-+ [Mockup - IN PROGRESS]
++ [Wireframe](https://www.figma.com/file/GGb7PZGsTpzjhcZDt4ttDu/Untitled?node-id=0%3A1)
 + [Notion](https://www.notion.so/Team-Home-f6436a085756411387b82bca9b436481)
 
-## Technology
+## Technology   
 
 * **[Typescript](https://www.typescriptlang.org/)** - TypeScript is an open source programming language developed by Microsoft. It is a strict syntactic superset of JavaScript and adds optional static typing to the language. 
 * **[React](https://reactjs.org/)** - React is an open source JavaScript library focused on creating user interfaces on web pages. 
 * **[Playwright](https://playwright.dev/)** - Playwright enables reliable end-to-end testing for modern web apps.
 
-<!-- ### Requirements -->
+### Requirements
 
 ## First Steps
 
@@ -34,7 +34,15 @@ Enter the project folder:
 cd olimpo-if977-frontend
 ```
 
-<!-- ### Running the Project -->
+### Running the Project
+
+```
+npm install
+```
+
+```
+npm start
+```
 
 ## GitHub
 

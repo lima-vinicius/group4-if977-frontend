@@ -49,6 +49,13 @@ const StudentProfile = () => {
                     value='Sistemas de Informação'
                     />
                 </div>
+                <div className="wrap-input-profile">
+                    <input          
+                    className="input-profile"
+                    type="text"
+                    value='3° Período'
+                    />
+                </div>
 
                 <button className='profile-btn salve-information'>Salvar Informações</button>
                 </div>

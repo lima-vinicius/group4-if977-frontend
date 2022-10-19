@@ -7,31 +7,30 @@ import logo from "../../assets/olimpo-logo.png"
 // import { useInfo } from '../../context/UserContext';
 
 const Login = () => {
-    const [redirect, setRedirect] = useState(false);
+    // const [redirect, setRedirect] = useState(false);
     // const [, setUserInfo] = useInfo()[0];
 
       const [email, setEmail] = useState("");
       const [password, setPassword] = useState("");
 
-    const handleLogin = async () => {
-        window.location.href = '/student-dashboard'
-        // const makeLogin = await [Realizar a requisição para a a rota de login e colocar o objeto de login no body] ;
-        // setUserInfo(makeLogin.data.data.user);
-        // const { token } = await makeLogin.data.data;
-        // const { id, permission } = await makeLogin.data.data.user;
-        // localStorage.setItem('olimpo-token', token);
-        // localStorage.setItem('olimpo-id', id);
+    // const handleLogin = async () => {
+    //     const makeLogin = await [Realizar a requisição para a a rota de login e colocar o objeto de login no body] ;
+    //     setUserInfo(makeLogin.data.data.user);
+    //     const { token } = await makeLogin.data.data;
+    //     const { id, permission } = await makeLogin.data.data.user;
+    //     localStorage.setItem('olimpo-token', token);
+    //     localStorage.setItem('olimpo-id', id);
 
-        // if (permission === 1) {
-        //     setRedirect({
-        //       pathname: '/college',
-        //     });
-        //   } else if (permission === 2) {
-        //     setRedirect({
-        //       pathname: '/student',
-        //     });
-        // }
-    }
+    //     if (permission === 1) {
+    //         setRedirect({
+    //           pathname: '/college',
+    //         });
+    //       } else if (permission === 2) {
+    //         setRedirect({
+    //           pathname: '/student',
+    //         });
+    //     }
+    // }
 
     return (
         <LayoutComponents>

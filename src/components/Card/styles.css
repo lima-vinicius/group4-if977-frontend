@@ -6,6 +6,26 @@
     border-radius: 10px;
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
     z-index: 10;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+}
+
+.container-card-title-x {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.trails-title {
+    display: block;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #3C7055;
+    line-height: 1.2;
+    text-align: center;
 }
 
 #answer-card {
@@ -22,11 +42,22 @@
 
 .expanded-card-title {
     display: block;
-    padding-top: 20px;
     font-size: 30px;
+    margin: 0 auto;
     color: #3C7055;
     line-height: 1.2;
     text-align: center;
+}
+
+.x-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 30px;
+    height: 30px;
+}
+
+.x-button:hover {
+    cursor: pointer;
 }
 
 .expanded-card-subtitle {

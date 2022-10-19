@@ -12,22 +12,16 @@ const StudentRegister = () => {
 
   const handleStudentRegister = async () => {
     alert ('Student Register')
-    // const makeLogin = await [Realizar a requisição para a rota de criação de um perfil para estudante e colocar o objeto do cadastro no body] ;
-    // setUserInfo(makeLogin.data.data.user);
-    // const { token } = await makeLogin.data.data;
-    // const { id, permission } = await makeLogin.data.data.user;
+    // const makeStudentRegister = await [Realizar a requisição para a rota de criação de um perfil para estudante e colocar o objeto do cadastro no body] ;
+    // setUserInfo(makeStudentRegister.data.data.user);
+    // Após o final do cadastro, já realizar o login do estudante
+    // const { token } = await makeStudentRegister.data.data;
+    // const { id, permission } = await makeStudentRegister.data.data.user;
     // localStorage.setItem('olimpo-token', token);
     // localStorage.setItem('olimpo-id', id);
-
-    // if (permission === 1) {
-    //     setRedirect({
-    //       pathname: '/college',
-    //     });
-    //   } else if (permission === 2) {
-    //     setRedirect({
-    //       pathname: '/student',
-    //     });
-    // }
+    //  setRedirect({
+    //    pathname: '/student-dashboard',
+    //  });
 }
 
   return (

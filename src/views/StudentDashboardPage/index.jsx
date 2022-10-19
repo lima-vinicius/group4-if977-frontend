@@ -4,58 +4,49 @@ import CardWarning from '../../components/CardWarning';
 import './styles.css'
 
 const CollegeDashboard = () => {
+
+    const dataActivities = [{
+        subject: 'Algoritmos',
+        activity: 'Lista 4',
+        date: '18/10/2022',
+    },
+    {
+        subject: 'Lógica',
+        activity: 'Lista 7',
+        date: '20/10/2022',
+    },
+    {
+        subject: 'Inglês',
+        activity: 'Atividade 2',
+        date: '22/10/2022',
+    },
+    {
+        subject: 'Adminstração',
+        activity: 'Estudo de caso',
+        date: '24/10/2022',
+    }
+    ]
     return (
         <div className='main-cards-dashboard'>
             <div className='header-dashboard'>
-                <CardWarning></CardWarning>
-                <CardInformation></CardInformation>
+                <CardInformation />
+                <CardWarning />
             </div>
             <div className='main-list'>
-                <div className='activies-card activies-card-title'>
-                    <p>Cadeira</p>
-                    <p>Atividade</p>
-                    <p>Entrega</p>
+                <div className='activities-card activities-card-title'>
+                    <p><strong>Disciplina</strong></p>
+                    <p><strong>Atividade</strong></p>
+                    <p><strong>Data final</strong></p>
                 </div>
-                <div className='activies-card'>
-                    <p>Algoritmos</p>
-                    <p>Lista 4</p>
-                    <p>28/10/2022</p>
-                </div>
-                <div className='activies-card'>
-                    <p>Lógica</p>
-                    <p>Lista 3</p>
-                    <p>28/10/2022</p>
-                </div>
-                <div className='activies-card'>
-                    <p>Programação</p>
-                    <p>Lista 7</p>
-                    <p>28/10/2022</p>
-                </div>
-                <div className='activies-card'>
-                    <p>Eng. Software</p>
-                    <p>Strateegia</p>
-                    <p>28/10/2022</p>
-                </div>
-                <div className='activies-card'>
-                    <p>Inglês</p>
-                    <p>Lista 1</p>
-                    <p>28/10/2022</p>
-                </div>
-                <div className='activies-card'>
-                    <p>Introdução SI</p>
-                    <p>Lista 2</p>
-                    <p>28/10/2022</p>
-                </div>
-                <div className='activies-card'>
-                    <p>Redes</p>
-                    <p>Lista 3</p>
-                    <p>28/10/2022</p>
-                </div>
-                <div className='activies-card'>
-                    <p>Gestão</p>
-                    <p>Lista 9</p>
-                    <p>28/10/2022</p>
-                </div>
+                {
+                    dataActivities.map((item, index)=>(
+                        <div key={index} className='activities-card'>
+                            <p>{item.subject}</p>
+                            <p>{item.activity}</p>
+                            <p>{item.date}</p>
+                        </div>
+                    ))
+                }
             </div>
         </div>
     );

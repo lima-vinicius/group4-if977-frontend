@@ -19,12 +19,12 @@ const StudentSidebar = ({children}) => {
         },
         {
             path:"/student-trails",
-            name:"Cartões Pessoais",
+            name:"Trilhas Pessoais",
             icon: trail
         }, 
         {
             path:"/student-college-trails",
-            name:"Cartões da Universidade",
+            name:"Trilhas da Universidade",
             icon: college
         },
         {

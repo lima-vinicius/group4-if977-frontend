@@ -5,19 +5,21 @@ import ExpandedCard from '../../components/Card';
 
 const StudentTrails = () => {
 
-    const popUpCard = ()  => {
+    const popUpCard = (state)  => {
         const popupCardExtended = document.getElementById('main-expanded-card')
-        popupCardExtended.style.display = 'block'
+        const backgroundChange = document.getElementById('main-student-trails')
+        popupCardExtended.style.display = state
     }
 
     return (
-        <div className='main-student-trails'>
-        <div id='main-expanded-card'>
-            <ExpandedCard />
-        </div>
+        <div id='main-student-trails'>
+            <div id='main-expanded-card'>
+                <ExpandedCard popUpFunction={popUpCard} />
+            </div>
+            <h1 className='trails-title'>Escolha seu tópico de estudo</h1>
             <div className='header-student-trails'>
                 <div className='trails-card'>
-                    <p className='title-trail-card' onClick={popUpCard}>Design Sprint</p>
+                    <p className='title-trail-card' onClick={() => popUpCard('block')}>Design Sprint</p>
                 </div>
             </div>
         </div>

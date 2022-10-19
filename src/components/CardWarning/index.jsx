@@ -11,9 +11,12 @@ const CardWarning = () => {
             </div>
             <div className='container-information-warning'>
                 <h1>Proxíma Avaliação</h1>
-                <p>Engenharia de Software</p>
-                <p>Data: 17/10/2022</p>
-                <p>Objetivo: Entrega final do projeto idealizado pelos alunos</p>
+                <h2>Engenharia de Software</h2>
+                <div className='container-date-objective'>
+                    <p><strong>Data: </strong>17/10/2022</p>
+                    <p><strong>Objetivo: </strong>Entrega final do projeto idealizado pelos alunos</p>
+                </div>
+
             </div>
             
         </div>
